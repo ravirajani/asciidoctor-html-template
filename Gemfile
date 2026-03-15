@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-gem "asciidoctor-html", "~> 1.0"
+gem "asciidoctor-html"
 gem "logger", "~> 1.7"

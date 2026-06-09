@@ -36,7 +36,7 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
       - name: Build the site
-        run: bundle exec adoctohtml
+        run: bundle exec adoctohtml -c adoc/config.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

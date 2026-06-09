@@ -1,0 +1,5 @@
+= Welcome
+
+The https://github.com/ravirajani/asciidoctor-html-template[repo] for this webpage is a https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template[template repository].
+
+include::../README.adoc[]

@@ -1,0 +1,6 @@
+title: Template for asciidoctor-html
+authors:
+  - Ravi Rajani
+chapters:
+  - index.adoc
+outdir: ../www

@@ -1,7 +1,0 @@
-= Welcome
-
-I am a lecturer in Mathematics and Data Science at the https://ase.uva.nl/[Amsterdam School of Economics], part of the https://uva.nl/[University of Amsterdam].
-
-The https://github.com/ravirajani/ravirajani.github.io[repo] for this webpage is a https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template[template repository].
-
-include::README.adoc[]

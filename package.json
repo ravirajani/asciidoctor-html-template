@@ -1,19 +1,5 @@
 {
-  "name": "my-project",
-  "source": "html/index.html",
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
-  "targets": {
-    "default": {
-      "distDir": "public",
-      "publicUrl": "."
-    }
-  },
   "devDependencies": {
-    "@parcel/packager-raw-url": "latest",
-    "@parcel/transformer-webmanifest": "latest",
-    "parcel": "latest"
+    "browser-sync": "^3.0.4"
   }
 }

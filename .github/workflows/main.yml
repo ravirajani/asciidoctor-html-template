@@ -43,6 +43,7 @@ jobs:
           bundler-cache: true
       - name: Build the site
         run: bundle exec adoctohtml -c adoc/config.yml
+      - name: Package the site with Parcel
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

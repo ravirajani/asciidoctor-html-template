@@ -29,7 +29,13 @@ jobs:
           - '3.4.4'
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Install node dependencies
+        run: npm ci
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -37,10 +43,11 @@ jobs:
           bundler-cache: true
       - name: Build the site
         run: bundle exec adoctohtml -c adoc/config.yml
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: www/
+          path: public/
 
   # Deployment job
   deploy:

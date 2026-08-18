@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 
 gem "asciidoctor-html"
-gem "logger", "~> 1.7"
+gem "logger"

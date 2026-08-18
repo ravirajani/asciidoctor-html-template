@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "browser-sync": "^3.0.4"
+  },
+  "scripts": {
+    "start": "browser-sync start -c bs-config.js"
   }
 }
